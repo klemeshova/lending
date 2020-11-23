@@ -1,0 +1,42 @@
+body {
+	padding: 0;
+	margin: 0;
+	color: rgb(48, 45, 45);
+	font-size: 16px;
+}
+* {
+	box-sizing: border-box;
+}
+.img{
+    width: 1850px;
+}
+.story {
+    /* width: 1170px; */
+    /* margin: 0px auto; */
+    /* /выраынивание по центру по горизонтали рисунка/  */
+    display: block;  
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.marcy{
+    /* margin: 0px auto; */
+    width: 150px;    
+    display: block;  
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -145px;
+}
+.desc-left, .desc-right {
+	width: 567px;
+}
+
+.content {
+	width: 1170px;
+	/*позиционирование по центру*/
+    margin: 0 auto; 
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-between;
+    
+}
